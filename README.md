@@ -1,4 +1,23 @@
-# 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper.
+# 🚀🤖 Crawl4AI-Qwen: Open-source LLM Friendly Web Crawler & Scraper.
+
+### **项目简介：Crawl4AI-QWen**
+
+**来源**
+基于开源项目 [Crawl4AI](https://github.com/yourusername/crawl4ai)，针对原版**仅支持LiteLLM，不支持QWen大模型**的局限，扩展适配能力，提供更灵活的模型兼容性。
+
+**核心改进**
+1. **QWen大模型支持**
+- 新增`llm_config_extend`模块，支持阿里云QWen系列模型。
+
+2. **LiteLLM兼容性扩展**
+- 通过统一接口封装，支持通过LiteLLM调用QWen API，简化流程。
+
+3. **OpenAI规范对齐**
+- 遵循阿里云 [OpenAI兼容性规范](https://www.alibabacloud.com/help/en/model-studio/compatibility-of-openai-with-dashscope#43f870c0cfvsy)，实现`messages`格式、`temperature`等参数无缝对接。
+
+**应用价值**
+- 为Crawl4AI提供QWen大模型支持，利用国产模型搭建高质量网页数据采集管道。
+- 开发者可通过OpenAI兼容接口，快速集成工作流。
 
 <div align="center">
 
@@ -36,6 +55,9 @@ I made Crawl4AI open-source for two reasons. First, it’s my way of giving back
 
 Thank you to everyone who has supported this project, used it, and shared feedback. Your encouragement motivates me to dream even bigger. Join us, file issues, submit PRs, or spread the word. Together, we can build a tool that truly empowers people to access their own data and reshape the future of AI.
 </details>
+
+
+
 
 ## 🧐 Why Crawl4AI?
 
