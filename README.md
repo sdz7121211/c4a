@@ -2,7 +2,7 @@
 
 ## **项目简介：Crawl4AI-QWen**
 
-### **来源**
+### **项目说明**
 基于开源项目 [Crawl4AI](https://github.com/yourusername/crawl4ai)，针对原版**仅支持 LiteLLM，不支持 QWen 大模型**的局限，扩展适配能力，提供更灵活的模型兼容性。
 
 ### **核心改进**
